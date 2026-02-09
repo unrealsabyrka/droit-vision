@@ -2,6 +2,8 @@
   --color-white: #fff;
   --color-white-64: #ffffffa3;
   --color-black: #16181a;
-  --color-white-64: #000000a3;
+  --color-black-64: #000000a3;
   --color-gradient-accent: linear-gradient(90deg, #F5E774 0%, #05A3E7 100%);
+
+  --border-radius: 4px;
 }
