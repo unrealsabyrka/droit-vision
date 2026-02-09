@@ -9,7 +9,7 @@
   --color-gradient-stroke-width: linear-gradient(135deg,rgba(255 255 255 / .64) 0%,rgba(255 255 255 / .08) 100%);
 
   --border-width: 1px;
-  --border-radius: 5px;
+  --border-radius: 8px;
   --border: var(--border-width) solid var(--color-gradient-stroke-width);
 
   --font-family: 'Ping Fang SC', sans-serif;

@@ -8,9 +8,32 @@
 }
 
 .hero-title {
+  position: relative;
   font-size: 64px;
   font-weight: 600;
   margin-bottom: 24px;
+}
+
+.hero-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -156.5px;
+  width: 139px;
+  height: 58px;
+  background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
+  border-radius: var(--border-radius);
+}
+
+.hero-title::after {
+  content: '';
+  position: absolute;
+  top: -32px;
+  right: -156.5px;
+  width: 139px;
+  height: 58px;
+  background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
+  border-radius: var(--border-radius);
 }
 
 .hero-title-accent {
