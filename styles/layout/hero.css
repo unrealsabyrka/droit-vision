@@ -21,7 +21,7 @@
   left: -156.5px;
   width: 139px;
   height: 58px;
-  background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
+  background: url('../../assets/images/badge/left-center.png') center/contain no-repeat;
   border-radius: var(--border-radius);
 }
 
@@ -54,10 +54,10 @@
   content: '';
   position: absolute;
   bottom: -60px;
-  right: 92.5px;
+  right: 93px;
   width: 139px;
   height: 58px;
-  background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
+  background: url('../../assets/images/badge/right-bottom.png') center/contain no-repeat;
   border-radius: var(--border-radius);
 }
 
