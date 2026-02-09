@@ -45,7 +45,20 @@
 
 
 .hero-description {
+  position: relative;
   max-width: 736px;
   margin-bottom: 40px;
   color: var(--color-white-64);
+}
+
+.hero-description::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  right: 92.5px;
+  width: 139px;
+  height: 58px;
+  background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
+  border-radius: var(--border-radius);
+
 }
