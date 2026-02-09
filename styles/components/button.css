@@ -1,0 +1,6 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: var(--color-gradient-accent);
+}
