@@ -12,4 +12,11 @@
   font-weight: 500;
   padding-inline: 24px;
   height: var(--button-height-md);
+  box-shadow:
+    0px 0px 16px 0px rgba(245, 231, 116, 0.48),
+    0px 0px 16px 0px rgba(5, 163, 231, 0.48);
+}
+
+.button-md:hover {
+  box-shadow: none;
 }
