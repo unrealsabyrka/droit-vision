@@ -5,8 +5,8 @@
   --color-black-64: #000000a3;
 
   --color-gradient-accent: linear-gradient(90deg, #F5E774 0%, #05A3E7 100%);
-  --color-gradient-badge-bg: linear-gradient(135deg,rgba(255,255,255,.04) 0%,rgba(255,255,255,.01) 100%);
-  --color-gradient-stroke-width: linear-gradient(135deg,rgba(255,255,255,.64) 0%,rgba(255,255,255,.08) 100%);
+  --color-gradient-badge-bg: linear-gradient(135deg,rgba(255 255 255 / .04) 0%,rgba(255 255 255 / .01) 100%);
+  --color-gradient-stroke-width: linear-gradient(135deg,rgba(255 255 255 / .64) 0%,rgba(255 255 255 / .08) 100%);
 
   --border-radius: 4px;
   --border: 1px solid var(--color-gradient-stroke-width);
