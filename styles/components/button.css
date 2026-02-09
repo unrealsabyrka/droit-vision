@@ -8,6 +8,13 @@
   background-image: var(--color-gradient-accent);
 }
 
+.button::before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  background: url('../../assets/icons/arrow-forward.svg') center/contain no-repeat;
+}
+
 .button-md {
   font-weight: 500;
   padding-inline: 24px;
