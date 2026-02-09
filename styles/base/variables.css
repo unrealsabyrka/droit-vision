@@ -9,4 +9,6 @@
   --color-gradient-stroke-width: linear-gradient(135deg,rgba(255,255,255,.64) 0%,rgba(255,255,255,.08) 100%);
 
   --border-radius: 4px;
+
+  --font-family: 'Ping Fang SC', sans-serif;
 }
