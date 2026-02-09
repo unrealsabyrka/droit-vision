@@ -15,4 +15,7 @@
 
   --button-height-md: 40px;
   --button-height-lg: 48px;
+
+  --container-width: 1200px;
+  --container-padding-x: 15px;
 }
