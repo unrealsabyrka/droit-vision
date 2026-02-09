@@ -3,3 +3,24 @@
   justify-content: space-between;
   padding-block: 20px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding-block: 16px;
+  }
+
+  .header-logo-image {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding-block: 12px;
+  }
+
+  .header-logo-image {
+    width: 100px;
+  }
+}

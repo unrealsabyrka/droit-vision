@@ -21,3 +21,21 @@
   font-size: 36px;
   font-weight: 600;
 }
+
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+}

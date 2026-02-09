@@ -71,3 +71,73 @@
 .partners-item:hover .partners-item-description {
   color: var(--color-black-64);
 }
+
+@media (max-width: 1024px) {
+  .partners {
+    row-gap: 50px;
+    margin-bottom: 60px;
+  }
+
+  .partners-list {
+    column-gap: 24px;
+  }
+
+  .partners-item {
+    padding: 20px;
+  }
+
+  .partners-item-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners {
+    row-gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  .partners-list {
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+  }
+
+  .partners-item {
+    padding: 20px;
+  }
+
+  .partners-item-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners {
+    row-gap: 32px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .partners-list {
+    row-gap: 16px;
+  }
+
+  .partners-item {
+    row-gap: 12px;
+    padding: 16px;
+  }
+
+  .partners-item-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .partners-item-title {
+    font-size: 16px;
+  }
+
+  .partners-item-description {
+    font-size: 14px;
+  }
+}

@@ -10,3 +10,45 @@
 .footer-description {
   margin-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-block: 40px 100px;
+  }
+
+  .footer-title {
+    margin-bottom: 20px;
+  }
+
+  .footer-description {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-block: 36px 80px;
+  }
+
+  .footer-title {
+    margin-bottom: 16px;
+  }
+
+  .footer-description {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding-block: 32px 60px;
+  }
+
+  .footer-title {
+    margin-bottom: 16px;
+  }
+
+  .footer-description {
+    margin-bottom: 28px;
+  }
+}

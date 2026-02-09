@@ -86,3 +86,117 @@
   pointer-events: none;
   background: url('../../assets/images/mesh/blue.png') center/contain no-repeat;
 }
+
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-title::before,
+  .hero-title::after {
+    width: 100px;
+    height: 42px;
+  }
+
+  .hero-title::before {
+    left: -112px;
+  }
+
+  .hero-title::after {
+    right: -112px;
+  }
+
+  .hero-description::after {
+    width: 100px;
+    height: 42px;
+    right: 60px;
+  }
+
+  .hero-button::before {
+    width: 240px;
+    height: 240px;
+    left: -180px;
+    top: -220px;
+  }
+
+  .hero-button::after {
+    width: 360px;
+    height: 360px;
+    right: -260px;
+    top: -210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero-title::before,
+  .hero-title::after {
+    display: none;
+  }
+
+  .hero-description {
+    margin-bottom: 32px;
+  }
+
+  .hero-description::after {
+    display: none;
+  }
+
+  .hero-button::before {
+    width: 180px;
+    height: 180px;
+    left: -140px;
+    top: -160px;
+  }
+
+  .hero-button::after {
+    width: 280px;
+    height: 280px;
+    right: -200px;
+    top: -160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    margin-bottom: 28px;
+  }
+
+  .hero-button::before {
+    width: 120px;
+    height: 120px;
+    left: -100px;
+    top: -100px;
+  }
+
+  .hero-button::after {
+    width: 200px;
+    height: 200px;
+    right: -140px;
+    top: -120px;
+  }
+}
