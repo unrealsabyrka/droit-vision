@@ -1,0 +1,12 @@
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--color-white-64);
+  background-color: var(--color-black);
+}
+
+a, button, input, textarea, svg * {
+  transition-duration: var(--transition-duration);
+}
