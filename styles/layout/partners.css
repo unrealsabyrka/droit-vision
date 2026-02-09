@@ -13,20 +13,40 @@
 }
 
 .partners-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
   padding: 24px;
+  cursor: pointer;
+
   border: var(--border-width) solid transparent;
   border-radius: var(--border-radius);
+  overflow: hidden;
 
   background:
-    linear-gradient(#000, #000) padding-box,
+    var(--color-gradient-badge-bg) padding-box,
     var(--color-gradient-stroke-width) border-box;
 }
 
-.partners-item:hover {
-  cursor: pointer;
+.partners-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -1;
+
+  background:
+    var(--color-gradient-accent) padding-box,
+    var(--color-gradient-stroke-width) border-box;
+
+  opacity: 0;
+  transition: opacity var(--transition-duration) ease;
+}
+
+.partners-item:hover::after {
+  opacity: 1;
 }
 
 .partners-item-title {
