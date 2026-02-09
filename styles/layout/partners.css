@@ -35,18 +35,23 @@
   inset: 0;
   border-radius: inherit;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;
 
   background:
     var(--color-gradient-accent) padding-box,
     var(--color-gradient-stroke-width) border-box;
 
   opacity: 0;
-  transition: all var(--transition-duration) ease;
+  transition: opacity var(--transition-duration) ease;
 }
 
 .partners-item:hover::after {
   opacity: 1;
+}
+
+.partners-item > * {
+  position: relative;
+  z-index: 2;
 }
 
 .partners-item-title {
