@@ -42,7 +42,7 @@
     var(--color-gradient-stroke-width) border-box;
 
   opacity: 0;
-  transition: opacity var(--transition-duration) ease;
+  transition: all var(--transition-duration) ease;
 }
 
 .partners-item:hover::after {
@@ -53,4 +53,16 @@
   font-weight: 500;
   font-size: 20px;
   line-height: var(--line-height);
+}
+
+.partners-item:hover .partners-item-title {
+  color: var(--color-black);
+}
+
+.partners-item:hover .partners-item-image {
+  filter: brightness(0);
+}
+
+.partners-item:hover .partners-item-description {
+  color: var(--color-black-64);
 }
