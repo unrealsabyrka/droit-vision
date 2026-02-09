@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 24px;
+}
+
+.hero-title-accent {
+  background: var(--color-gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hero-description {
+  max-width: 736px;
+  margin-bottom: 40px;
+  color: var(--color-white-64);
+}
