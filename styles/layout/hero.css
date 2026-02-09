@@ -43,7 +43,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-
 .hero-description {
   position: relative;
   max-width: 736px;
@@ -60,5 +59,30 @@
   height: 58px;
   background: url('../../assets/images/badge/right-top.jpg') center/contain no-repeat;
   border-radius: var(--border-radius);
+}
 
+.hero-button {
+  position: relative;
+}
+
+.hero-button::before {
+  content: '';
+  position: absolute;
+  top: -294px;
+  left: -236px;
+  width: 320px;
+  height: 320px;
+  pointer-events: none;
+  background: url('../../assets/images/mesh/yellow.png') center/contain no-repeat;
+}
+
+.hero-button::after {
+  content: '';
+  position: absolute;
+  top: -280px;
+  right: -340px;
+  width: 480px;
+  height: 480px;
+  pointer-events: none;
+  background: url('../../assets/images/mesh/blue.png') center/contain no-repeat;
 }
