@@ -16,3 +16,8 @@
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+}
