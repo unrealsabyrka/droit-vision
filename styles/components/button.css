@@ -1,6 +1,15 @@
 .button {
   display: flex;
   align-items: center;
+  column-gap: 10px;
+  line-height: var(--line-height);
   border: none;
-  background-color: var(--color-gradient-accent);
+  border-radius: 1000px;
+  background-image: var(--color-gradient-accent);
+}
+
+.button-md {
+  font-weight: 500;
+  padding-inline: 24px;
+  height: var(--button-height-md);
 }

@@ -12,6 +12,7 @@
   --border: 1px solid var(--color-gradient-stroke-width);
 
   --font-family: 'Ping Fang SC', sans-serif;
+  --line-height: 1.6;
 
   --button-height-md: 40px;
   --button-height-lg: 48px;
