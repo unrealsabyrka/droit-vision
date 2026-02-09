@@ -10,3 +10,7 @@ body {
 a, button, input, textarea, svg * {
   transition-duration: var(--transition-duration);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-white);
+}
